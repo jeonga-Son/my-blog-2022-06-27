@@ -1,17 +1,18 @@
 import React from "react"
-import Head from "../components/head";
+import Layout from "../components/layout";
 
 
 // markup
 const IndexPage = () => {
   return (
     <main>
+      <Layout>
       <title>Home Page</title>
-      <Head/>
 
-      <h1>Hom Page</h1>
+      <h1>홈 페이지</h1>
+      </Layout>
     </main>
-  )
+  );
 }
 
 export default IndexPage;
