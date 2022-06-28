@@ -1,14 +1,14 @@
 import React from "react"
 import Layout from "../components/layout";
 
-function AboutPage() {
+function BlogPage() {
     return (
         <main>
-            <Layout pageTitle="About Me">
-            <h1>자기소개 페이지 입니다.</h1>
+            <Layout pageTitle="My Blog Posts">
+             <p>My cool posts will go in here</p>
             </Layout>
         </main>
     );
 };
 
-export default AboutPage;
+export default BlogPage;

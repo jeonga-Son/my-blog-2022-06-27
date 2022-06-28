@@ -5,19 +5,19 @@
 }
 
 .heading {
-    color:rebeccapurple;
+    color: rebeccapurple;
 }
 
-.nav-Links {
+.nav-links {
     display: flex;
     list-style: none;
-    padding-left:0;
+    padding-left: 0;
 }
 
-.nav-Link-item {
+.nav-link-item {
     padding-right: 2rem;
 }
 
-.nav-Link-Text {
-    color:black;
+.nav-link-Text {
+    color: black;
 }
